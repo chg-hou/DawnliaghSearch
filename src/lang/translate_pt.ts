@@ -158,7 +158,54 @@
 &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
 
 &lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;
+
+&lt;div class=&quot;table&quot;&gt;&lt;table class=&quot;generic&quot;&gt;
+ &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Expressão&lt;/th&gt;&lt;th&gt;Saída&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+141]&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt; o dia como número sem um zero inicial (1 a 31)&lt;/td&gt;&lt;/tr&gt;.
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;dd&lt;/td&gt;&lt;td&gt;o dia como número com um zero inicial (01 a 31)&lt;/td&gt;&lt;/tr&gt;
+356]&lt;td&gt;ddd&lt;/td&gt;&lt;td&gt;o nome abreviado do dia localizado (por exemplo, &apos;Mon&apos; a &apos;Sun&apos;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;dddd&lt;/td&gt;&lt;td&gt;o longo nome do dia localizado (por exemplo, &apos;monday&apos; a &apos;subday&apos;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt; o mês como número sem um zero inicial (1-12)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;MM&lt;/td&gt;&lt;td&gt; o mês como número com um zero inicial (01-12)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;MMM&lt;/td&gt;&lt;td&gt;o nome abreviado do mês localizado (por exemplo, &apos;Jan&apos; a &apos;Dec&apos;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;MMMM&lt;/td&gt;&lt;td&gt; o longo nome do mês localizado (por exemplo, &apos;january&apos; a &apos;december&apos;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;yy&lt;/td&gt;&lt;td&gt;ano como número de dois dígitos (00-99)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;yyyyy&lt;/td&gt;&lt;td&gt;o ano como número de quatro dígitos&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;br/&gt;
+
+
+&lt;div class=&quot;table&quot;&gt;&lt;table class=&quot;generic&quot;&gt;
+ &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Expressão&lt;/th&gt;&lt;th&gt;Saída&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;&lt;td&gt;h&lt;/td&gt;&lt;td&gt; a hora sem um zero inicial (0 a 23 ou 1 a 12 se AM/PM display)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;hh&lt;/td&gt;&lt;td&gt; a hora com um zero inicial (00 a 23 ou 01 a 12 se AM/PM display)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt; a hora sem um zero inicial (0 a 23, mesmo com display AM/PM)&lt;/td&gt;&lt;/tr&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;HH&lt;/td&gt;&lt;td&gt;a hora com um zero inicial (00 a 23, mesmo com display AM/PM)&lt;/td&gt;&lt;/tr&gt;.
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;m&lt;/td&gt;&lt;td&gt;o minuto sem um zero inicial (0 a 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;mm&lt;/td&gt;&lt;td&gt;minuto com um zero inicial (00 a 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt; segundo sem um zero inicial (0 a 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ss&lt;/td&gt;&lt;td&gt;segundo com um zero inicial (00 a 59)&lt;/td&gt;&lt;/tr&gt;.
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;z&lt;/td&gt;&lt;td&gt;os milissegundos sem zeros iniciais (0 a 999)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;zzz&lt;/td&gt;&lt;td&gt;os milissegundos com zeros à esquerda (000 a 999)&lt;/td&gt;&lt;/tr&gt;.
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;AP ou A&lt;/td&gt;&lt;td&gt;interpretam como um tempo AM (manhã)/PM (tarde). &lt;i&gt;AP&lt;/i&gt; deve ser ou &quot;AM&quot; ou &quot;PM&quot;.&lt;/td&gt;&lt;/tr&gt;&lt;/tr&gt;&lt;i&gt;AP&lt;/i&gt; deve ser ou &quot;AM&quot; ou &quot;PM&quot;.
+2576]&lt;td&gt;ap ou a&lt;/td&gt;&lt;td&gt;Interpretar como uma hora AM/PM. &lt;i&gt;ap&lt;/i&gt; deve ser ou &quot;am&quot; ou &quot;pm&quot;.&lt;/td&gt;&lt;/tr&gt;&lt;/tr&gt;&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ap ou a&lt;/td&gt;&lt;td&gt;Interpretar como hora AM/PM.
+&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+&lt;br/&gt;
+
+&lt;div class=&quot;table&quot;&gt;&lt;table class=&quot;generic&quot;&gt;
+&lt;caption&gt;Exemplos:&lt;/caption&gt;
+ &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Formato&lt;/th&gt;&lt;th&gt;Entrada&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;dd.MM.yyyy&lt;/td&gt;&lt;td&gt;21.05.2001&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;&lt;td&gt; ddd MMMM d yy&lt;/td&gt;&lt;td&gt; Ter 21 de Maio 01&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;hh:mm:ss.zzz&lt;/td&gt;&lt;td&gt;14:13:09.042&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;h:m:s ap&lt;/td&gt;&lt;td&gt;2:13:9 pm&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="460"/>
@@ -194,12 +241,12 @@
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="596"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Will tree walk all folders under the root path, no matter whether the subfolders are in the same devices as the root path.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; A árvore percorrerá todas as pastas sob o caminho da raiz, não importa se as subpastas estão nos mesmos aparelhos que o caminho da raiz&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="599"/>
         <source>Ingore Folder in Different Devices</source>
-        <translation>Ignorar pasta em dispositivos diferentes</translation>
+        <translation>Ignorar pasta em aparelhos diferentes</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="606"/>
@@ -458,7 +505,7 @@
     <message>
         <location filename="../Ui_mainwindow.ui" line="654"/>
         <source>Only NTFS partition, faster than path walk</source>
-        <translation type="unfinished"></translation>
+        <translation>Apenas a partição NTFS, mais rápida do que o caminho percorrido</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="666"/>
@@ -540,22 +587,22 @@
     <message>
         <location filename="../Ui_mainwindow.ui" line="801"/>
         <source>Check Included</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificação Incluída</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="806"/>
         <source>Uncheck Included</source>
-        <translation type="unfinished"></translation>
+        <translation>Desmarque Incluído</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="811"/>
         <source>Check Updatable</source>
-        <translation type="unfinished"></translation>
+        <translation>Verificação Atualizável</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="816"/>
         <source>Uncheck Updatable</source>
-        <translation type="unfinished"></translation>
+        <translation>Desmarque atualizável</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="825"/>
@@ -565,7 +612,7 @@
     <message>
         <location filename="../Ui_mainwindow.ui" line="828"/>
         <source>Ctrl+G</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+G</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="836"/>
@@ -734,7 +781,7 @@
     <message>
         <location filename="../mainwindow_uuid_table_slots.cpp" line="226"/>
         <source> [Snap Compatibility Mode]</source>
-        <translation type="unfinished"></translation>
+        <translation> [Modo de compatibilidade snap]</translation>
     </message>
 </context>
 <context>
@@ -797,17 +844,17 @@
     <message>
         <location filename="../globals.cpp" line="54"/>
         <source>Dev name</source>
-        <translation>Nome do dispositivo</translation>
+        <translation>Nome do aparelho</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="55"/>
         <source>Major Device Num</source>
-        <translation>Número grande do dispositivo</translation>
+        <translation>Número grande do aparelho</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="56"/>
         <source>Minor Device Num</source>
-        <translation>Número pequeno do dispositivo</translation>
+        <translation>Número pequeno do aparelho</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="57"/>
@@ -827,17 +874,17 @@
     <message>
         <location filename="../globals.cpp" line="68"/>
         <source>Check to search this device. The icon indicates the mount state.</source>
-        <translation>Marque para pesquisar neste dispositivo. O ícone indica o estado da montagem.</translation>
+        <translation>Marque para pesquisar neste aparelho. O ícone indica o estado da montagem.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="69"/>
         <source>Path where the device is mounted.</source>
-        <translation>Caminho onde o dispositivo está montado.</translation>
+        <translation>Caminho onde o aparelho está montado.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="70"/>
         <source>Device label.</source>
-        <translation>Etiqueta do dispositivo.</translation>
+        <translation>Etiqueta do aparelho.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="71"/>
@@ -847,7 +894,7 @@
     <message>
         <location filename="../globals.cpp" line="72"/>
         <source>This is a editable column. You may customize the alias of this device.</source>
-        <translation>Isto é uma coluna editável. Pode personalizar um nome alternativo para este dispositivo.</translation>
+        <translation>Isto é uma coluna editável. Pode personalizar um nome alternativo para este aparelho.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="73"/>
@@ -857,25 +904,25 @@
     <message>
         <location filename="../globals.cpp" line="74"/>
         <source>Device name.</source>
-        <translation>Nome do dispositivo.</translation>
+        <translation>Nome do aparelho.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="75"/>
         <location filename="../globals.cpp" line="76"/>
         <source>Each storage device is represented by a major number and a range of minor numbers,
 which are used to identify either the entire device or a partition within the device.</source>
-        <translation>Cada um dos dispositivos de armazenamento é representado por um número grande e um intervalo de números pequenos,
-que são utilizados para identificar respetivamente o dispositivo e uma partição no dispositivo.</translation>
+        <translation>Cada um dos aparelhos de armazenamento é representado por um número grande e um intervalo de números pequenos,
+que são utilizados para identificar respetivamente o aparelho e uma partição no aparelho.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="77"/>
         <source>Total number of items in this device.</source>
-        <translation>Número total de itens neste dispositivo.</translation>
+        <translation>Número total de itens neste aparelho.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="78"/>
         <source>Check to update this device when click Update All button.</source>
-        <translation>Marque para atualizar este dispositivo ao clicar no botão &quot;atualizar tudo&quot;.</translation>
+        <translation>Marque para atualizar este aparelho ao clicar no botão &quot;atualizar tudo&quot;.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="79"/>

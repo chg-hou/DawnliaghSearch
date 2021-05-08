@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS version="2.1" language="hr">
 <context>
     <name>Dialog_Advanced_Setting</name>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="14"/>
         <source>Advanced Settings</source>
-        <translation>Erweiterte Einstellungen</translation>
+        <translation>Napredne postavke</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="48"/>
         <source>Search</source>
-        <translation>Suchen</translation>
+        <translation>Pretraga</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="56"/>
         <source>Number of Threads Used for Querying: </source>
-        <translation>Anzahl der Threads, die für die Abfrage verwendet werden: </translation>
+        <translation>Broj niti korištenih za upite: </translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="64"/>
         <location filename="../Ui_advanced_setting_dialog.ui" line="657"/>
         <source>(Auto)</source>
-        <translation>(automatisch)</translation>
+        <translation>(Automatski)</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="69"/>
@@ -57,37 +57,37 @@
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="117"/>
         <source>Result Limit</source>
-        <translation>Ergebnisgrenze</translation>
+        <translation>Ograničavanje rezultata</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="131"/>
-        <source>Query  Chunk  Size:</source>
-        <translation>Abfrage der Blockgröße:</translation>
+        <source>Query Chunk Size:</source>
+        <translation>Veličina komada upita:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="195"/>
         <source>Query Limit:</source>
-        <translation>Abfragegrenzwert:</translation>
+        <translation>Ograničenje upita:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="253"/>
         <source>Max Items in Table:</source>
-        <translation>Max. Anzahl von Elemente in der Tabelle:</translation>
+        <translation>Maks. broj elemenata u tablici:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="288"/>
         <source>Search Option</source>
-        <translation>Sucheigenschaften</translation>
+        <translation>Opcije pretrage</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="298"/>
         <source>Instant Search</source>
-        <translation>Sofortsuche</translation>
+        <translation>Trenutna pretraga</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="318"/>
         <source>Start Querying after Typing Finished:</source>
-        <translation>Abfrage beginnen, nachdem die Eingabe beendet wurde:</translation>
+        <translation>Počni slati upite nakon prekida tipkanja:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="356"/>
@@ -101,12 +101,12 @@
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="383"/>
         <source>Press &quot;Enter&quot; to Search</source>
-        <translation>Eingabe drücken, um Suche zu beginnen</translation>
+        <translation>Za pretraživanje, pritisni „Enter”</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="395"/>
         <source>Date-time Format:</source>
-        <translation>Datum/Uhrzeit-Format:</translation>
+        <translation>Format datuma i vremena:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="402"/>
@@ -158,68 +158,115 @@
 &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
 
 &lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
+
+&lt;div class=&quot;table&quot;&gt;&lt;table class=&quot;generic&quot;&gt;
+ &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Izraz&lt;/th&gt;&lt;th&gt;Rezultat&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;d&lt;/td&gt;&lt;td&gt;dan kao broj bez vodeće nule (1 do 31)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;dd&lt;/td&gt;&lt;td&gt;dan kao broj s vodećom nulom (01 do 31)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;ddd&lt;/td&gt;&lt;td&gt;skraćeno lokalizirano ime dana (npr. &apos;pon&apos; do &apos;ned&apos;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;dddd&lt;/td&gt;&lt;td&gt;potpuno lokalizirano ime dana (npr. &apos;ponedjeljak&apos; do &apos;nedjelja&apos;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;M&lt;/td&gt;&lt;td&gt;mjesec kao broj bez vodeće nule (1 – 12)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;MM&lt;/td&gt;&lt;td&gt;mjesec kao broj s vodećom nulom (01 – 12)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;MMM&lt;/td&gt;&lt;td&gt;skraćeno lokalizirano ime mjeseca (npr. &apos;sij&apos; do &apos;pro&apos;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;MMMM&lt;/td&gt;&lt;td&gt;potpuno lokalizirano ime mjeseca (npt. &apos;siječnja&apos; do &apos;prosinca&apos;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;yy&lt;/td&gt;&lt;td&gt;godina kao dvoznamenkasti broj (00 – 99)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;yyyy&lt;/td&gt;&lt;td&gt;godina kao četveroznamenkasti broj&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;br/&gt;
+
+
+&lt;div class=&quot;table&quot;&gt;&lt;table class=&quot;generic&quot;&gt;
+ &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Expression&lt;/th&gt;&lt;th&gt;Output&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;h&lt;/td&gt;&lt;td&gt;sat kao broj bez vodeće nule (0 do 23 ili 1 do 12, AM/PM prikaz)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;hh&lt;/td&gt;&lt;td&gt;sat kao broj s vodećom nulom (00 do 23 ili 01 do 12, AM/PM prikaz)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;H&lt;/td&gt;&lt;td&gt;sat bez vodeće nule (0 do 23, čak i s AM/PM prikazom)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;HH&lt;/td&gt;&lt;td&gt;sat s vodećom nulom (00 do 23, čak i s AM/PM prikazom)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;m&lt;/td&gt;&lt;td&gt;minute bez vodeće nule (0 do 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;mm&lt;/td&gt;&lt;td&gt;minute s vodećom nulom (00 do 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;s&lt;/td&gt;&lt;td&gt;sekunde bez vodeće nule (0 do 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ss&lt;/td&gt;&lt;td&gt;sekunde s vodećom nulom (00 do 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;z&lt;/td&gt;&lt;td&gt;milisekunde bez vodeće nule (0 do 999)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;zzz&lt;/td&gt;&lt;td&gt;milisekunde s vodećom nulom (000 do 999)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;AP ili A&lt;/td&gt;&lt;td&gt;interpretoraj kao AM/PM vrijeme. &lt;i&gt;AP&lt;/i&gt; mora biti &quot;AM&quot; ili &quot;PM&quot;.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ap ili a&lt;/td&gt;&lt;td&gt;interpretoraj kao AM/PM vrijeme. &lt;i&gt;ap&lt;/i&gt; mora biti &quot;am&quot; ili &quot;pm&quot;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+&lt;br/&gt;
+
+&lt;div class=&quot;table&quot;&gt;&lt;table class=&quot;generic&quot;&gt;
+&lt;caption&gt;Primjeri:&lt;/caption&gt;
+ &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Format&lt;/th&gt;&lt;th&gt;Unos&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;dd.MM.yyyy&lt;/td&gt;&lt;td&gt;21.05.2001&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ddd MMMM d yy&lt;/td&gt;&lt;td&gt;uto siječnja 21 01&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;hh:mm:ss.zzz&lt;/td&gt;&lt;td&gt;14:13:09.042&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;h:m:s ap&lt;/td&gt;&lt;td&gt;2:13:9 pm&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="460"/>
         <source>Restore Sorting after New Row Inserted</source>
-        <translation>Sortierung wiederherstellen, nachdem eine neue Zeile eingefügt wurde</translation>
+        <translation>Ponovi razvrstavanje nakon dodavanja novog retka</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="539"/>
         <source>Database</source>
-        <translation>Datenbank</translation>
+        <translation>Baza podataka</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="545"/>
         <source>Database Location</source>
-        <translation>Speicherort der Datenbank</translation>
+        <translation>Mjesto baze podataka</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="551"/>
-        <source>Main Database File Name:</source>
-        <translation>Name der Hauptdatenbankdatei:</translation>
+        <source>Main Database Filename:</source>
+        <translation>Ime datoteke glavne baze podataka:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="561"/>
         <location filename="../Ui_advanced_setting_dialog.ui" line="582"/>
-        <source>...</source>
+        <source>…</source>
         <translation>…</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="572"/>
-        <source>Temp Database File Name:</source>
-        <translation>Temp. Dateiname der Datenbank:</translation>
+        <source>Temp Database Filename:</source>
+        <translation>Ime datoteke privremene baze podataka:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="596"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Will tree walk all folders under the root path, no matter whether the subfolders are in the same devices as the root path.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pregledat će sve mape u osnovnoj stazi, neovisno o tome, jesu li podmape na istim uređajima kao osnovna staza.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="599"/>
         <source>Ingore Folder in Different Devices</source>
-        <translation>Ordner in unterschiedlichen Geräten ignorieren</translation>
+        <translation>Zanemari mape u različitim uređajima</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="606"/>
-        <source>Compress  the database file (using zlib) to save disk space when programe is closed</source>
-        <translation>Datenbankdatei (mit zlib) komprimieren, um beim Schließen der Anwendung Speicherplatz zu sparen</translation>
+        <source>Compress database file (using zlib) to save disk space when program is closed</source>
+        <translation>Komprimiraj datoteku baze podataka (zlib), radi uštede memorije na disku kad se program zatvori</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="615"/>
-        <source>Regular Expression to Exclude Mount Path:</source>
-        <translation>Regulärer Ausdruck zum Ausschluss des  Zuordnungspfades:</translation>
+        <source>Regular Expression for Excluding Mount Path:</source>
+        <translation>Regularni izraz za isključivanje staze uređaja:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="641"/>
         <source>Result Table</source>
-        <translation>Ergebnistabelle</translation>
+        <translation>Tablica rezultata</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="649"/>
         <source>Prefered Size Unit:</source>
-        <translation>Bevorzugte Größeneinheit:</translation>
+        <translation>Preferirana mjerna jedinica:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="662"/>
@@ -229,7 +276,7 @@
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="667"/>
         <source>KB</source>
-        <translation>kB</translation>
+        <translation>KB</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="672"/>
@@ -254,52 +301,52 @@
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="712"/>
         <source>Theme Name:</source>
-        <translation>Name des Themas:</translation>
+        <translation>Ime teme:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="719"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Type a folder which contains a &lt;span style=&quot; color:#0109ea;&quot;&gt;index.theme&lt;/span&gt; file.&lt;/p&gt;&lt;p&gt; Themes may be available in &amp;quot;&lt;a href=&quot;file:///usr/share/icons/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;/usr/share/icons&lt;/span&gt;&lt;/a&gt;&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Upiši mapu koja sadrži datoteku &lt;span style=&quot; color:#0109ea;&quot;&gt;index.theme&lt;/span&gt;.&lt;/p&gt;&lt;p&gt; Teme mogu biti dostupne u &amp;quot;&lt;a href=&quot;file:///usr/share/icons/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;/usr/share/icons&lt;/span&gt;&lt;/a&gt;&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="730"/>
         <source>Fallback Theme Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ime rezervne teme:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="737"/>
         <source>FallbackThemeName was introduced in Qt 5.12.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ime rezervne teme je predstavljeno u Qt 5.12.</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="746"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Type a folder which contains an &lt;span style=&quot; color:#0109ea;&quot;&gt;index.theme&lt;/span&gt; file.&lt;/p&gt;&lt;p&gt;Themes may be available in &amp;quot;&lt;a href=&quot;file:///usr/share/icons/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;/usr/share/icons&lt;/span&gt;&lt;/a&gt;&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Upiši mapu koja sadrži datoteku &lt;span style=&quot; color:#0109ea;&quot;&gt;index.theme&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;Teme mogu biti dostupne u &amp;quot;&lt;a href=&quot;file:///usr/share/icons/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;/usr/share/icons&lt;/span&gt;&lt;/a&gt;&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="770"/>
         <source>UUID Table</source>
-        <translation>UUID-Tabelle</translation>
+        <translation>UUID tablica</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="778"/>
         <source>Timer Interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Interval tajmera</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="786"/>
         <source>Mount-state Update:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualiziranje staze uređaja:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="851"/>
         <source>Rows Update:</source>
-        <translation>Zeilenaktualisierung:</translation>
+        <translation>Aktualiziranje redaka:</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="916"/>
         <source>Database Update:</source>
-        <translation>Datenbankaktualisierung:</translation>
+        <translation>Aktualiziranje baze podataka:</translation>
     </message>
 </context>
 <context>
@@ -307,7 +354,7 @@
     <message>
         <location filename="../Ui_edit_exclued_folder.ui" line="14"/>
         <source>Edit Excluded Folders</source>
-        <translation>Ausgeschlossene Ordner bearbeiten</translation>
+        <translation>Uredi isključene mape</translation>
     </message>
 </context>
 <context>
@@ -315,317 +362,322 @@
     <message>
         <location filename="../Ui_mainwindow.ui" line="14"/>
         <source>Dawnlight Search</source>
-        <translation>Dawnlight Search</translation>
+        <translation>Dawnlight pretraga</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="96"/>
         <source>Fi&amp;le</source>
-        <translation>&amp;Datei</translation>
+        <translation>&amp;Datoteka</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="102"/>
         <source>Setti&amp;ngs</source>
-        <translation>&amp;Einstellungen</translation>
+        <translation>Postav&amp;ke</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="106"/>
         <source>&amp;Language</source>
-        <translation>&amp;Sprache</translation>
+        <translation>&amp;Jezik</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="130"/>
+        <location filename="../Ui_mainwindow.ui" line="131"/>
         <source>Abo&amp;ut</source>
-        <translation>&amp;Info</translation>
+        <translation>&amp;Informacije</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="140"/>
+        <location filename="../Ui_mainwindow.ui" line="141"/>
         <source>&amp;View</source>
-        <translation>&amp;Ansicht</translation>
+        <translation>&amp;Prikaz</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="161"/>
-        <source>ToolBar</source>
-        <translation>Symbolleiste</translation>
+        <location filename="../Ui_mainwindow.ui" line="162"/>
+        <source>Toolbar</source>
+        <translation>Alatna traka</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="202"/>
-        <location filename="../Ui_mainwindow.ui" line="873"/>
+        <location filename="../Ui_mainwindow.ui" line="203"/>
+        <location filename="../Ui_mainwindow.ui" line="874"/>
         <source>&amp;Database</source>
-        <translation>&amp;Datenbank</translation>
+        <translation>&amp;Baza podataka</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="257"/>
-        <location filename="../Ui_mainwindow.ui" line="881"/>
+        <location filename="../Ui_mainwindow.ui" line="258"/>
+        <location filename="../Ui_mainwindow.ui" line="882"/>
         <source>SQL &amp;Command Preview</source>
-        <translation>SQL-&amp;Befehlsvorschau</translation>
+        <translation>Pregled SQL &amp;naredbi</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="285"/>
-        <source>ToolBar Case Sensitive</source>
-        <translation>Symbolleiste • Groß-/Kleinschreibung beachten</translation>
+        <location filename="../Ui_mainwindow.ui" line="286"/>
+        <source>Toolbar Case Sensitive</source>
+        <translation>Razlikovanje velikih/malih slova u alatnoj traci</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="300"/>
-        <source>ToolBar Advanced Setting</source>
-        <translation>Symbolleiste • Erweiterte Einstellung</translation>
+        <location filename="../Ui_mainwindow.ui" line="301"/>
+        <source>Toolbar Advanced Setting</source>
+        <translation>Napredne postavke alatne trake</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="328"/>
+        <location filename="../Ui_mainwindow.ui" line="329"/>
         <source>Sea&amp;rch</source>
-        <translation>&amp;Suchen</translation>
+        <translation>Pret&amp;raga</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="402"/>
-        <location filename="../Ui_mainwindow.ui" line="518"/>
+        <location filename="../Ui_mainwindow.ui" line="403"/>
+        <location filename="../Ui_mainwindow.ui" line="519"/>
         <source>Case Sensitive</source>
-        <translation>Groß-/Kleinschreibung beachten</translation>
+        <translation>Razlikovanje velikih/malih slova</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="460"/>
+        <location filename="../Ui_mainwindow.ui" line="461"/>
         <source>Search Settin&amp;gs</source>
-        <translation>Sucheinstellun&amp;gen</translation>
+        <translation>Postavke pretra&amp;ge</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="546"/>
+        <location filename="../Ui_mainwindow.ui" line="547"/>
         <source>Default Match Option</source>
-        <translation>Standardabgleichsoption</translation>
+        <translation>Standardna opcija poklapanja</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="552"/>
+        <location filename="../Ui_mainwindow.ui" line="553"/>
         <source>Na&amp;me</source>
-        <translation>Na&amp;me</translation>
+        <translation>I&amp;me</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="562"/>
-        <source>Path/Name</source>
-        <translation>Pfad/Name</translation>
+        <location filename="../Ui_mainwindow.ui" line="563"/>
+        <source>Path/name</source>
+        <translation>Staza/ime</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="569"/>
+        <location filename="../Ui_mainwindow.ui" line="570"/>
         <source>Path</source>
-        <translation>Pfad</translation>
+        <translation>Staza</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="576"/>
-        <source>De&amp;v/Path</source>
-        <translation>De&amp;v/Pfad</translation>
+        <location filename="../Ui_mainwindow.ui" line="577"/>
+        <source>De&amp;v/path</source>
+        <translation>&amp;Uređaj/staza</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="583"/>
-        <source>Dev/Path/Name</source>
-        <translation>Dev/Pfad/Name</translation>
+        <location filename="../Ui_mainwindow.ui" line="584"/>
+        <source>Dev/path/name</source>
+        <translation>Uređaj/staza/ime</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="598"/>
-        <source>&amp;About...</source>
-        <translation>&amp;Über …</translation>
+        <location filename="../Ui_mainwindow.ui" line="599"/>
+        <source>&amp;About…</source>
+        <translation>&amp;Informacije …</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="609"/>
-        <source>&amp;Set Excluded Folders...</source>
-        <translation>&amp;Ausgeschlossene Ordner festlegen …</translation>
+        <location filename="../Ui_mainwindow.ui" line="610"/>
+        <source>&amp;Set Excluded Folders…</source>
+        <translation>&amp;Odredi isključene mape …</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="614"/>
-        <source>About &amp;Qt...</source>
-        <translation>Über &amp;Qt …</translation>
+        <location filename="../Ui_mainwindow.ui" line="615"/>
+        <source>About &amp;Qt…</source>
+        <translation>O &amp;Qt programu …</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="625"/>
-        <source> ┗ &amp;Enable C++ MFT parser</source>
-        <translation> ┗ &amp;C++ MFT-Analyse aktivieren</translation>
+        <location filename="../Ui_mainwindow.ui" line="626"/>
+        <source> ┗ &amp;Turn on C++ MFT parser</source>
+        <translation> ┗ &amp;Uključi C++ MFT parser</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="628"/>
-        <source>Much faster than python parser</source>
-        <translation>Viel schneller als Python-Analysator</translation>
+        <location filename="../Ui_mainwindow.ui" line="629"/>
+        <source>Much faster than the Python parser</source>
+        <translation>Puno brže od Python parsera</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="640"/>
-        <source>&amp;Exit...</source>
-        <translation>&amp;Beenden …</translation>
+        <location filename="../Ui_mainwindow.ui" line="641"/>
+        <source>&amp;Exit…</source>
+        <translation>&amp;Zatvori program …</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="643"/>
-        <source>Exit application.</source>
-        <translation>Anwendung beenden</translation>
+        <location filename="../Ui_mainwindow.ui" line="644"/>
+        <source>Exit the application.</source>
+        <translation>Zatvori program.</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="651"/>
+        <location filename="../Ui_mainwindow.ui" line="652"/>
         <source>&amp;Use MFT Parser to Build Index</source>
-        <translation>MFT-Analyse zum Aufbau des Index verwenden</translation>
+        <translation>&amp;Koristi MFT parser za izgradnju indeksa</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="654"/>
+        <location filename="../Ui_mainwindow.ui" line="655"/>
         <source>Only NTFS partition, faster than path walk</source>
-        <translation type="unfinished"></translation>
+        <translation>Samo NTFS particija, brže od hodanja stazom</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="666"/>
-        <source>&amp;Advanced Settings...</source>
-        <translation>&amp;Erweiterte Einstellungen …</translation>
+        <location filename="../Ui_mainwindow.ui" line="667"/>
+        <source>&amp;Advanced Settings</source>
+        <translation>&amp;Napredne postavke</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="675"/>
+        <location filename="../Ui_mainwindow.ui" line="676"/>
         <source>&amp;Open Settings File Path</source>
-        <translation>&amp;Dateipfad der Einstellungen öffnen</translation>
+        <translation>&amp;Otvori stazu datoteke postavki</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="690"/>
+        <location filename="../Ui_mainwindow.ui" line="691"/>
         <source>Show Location Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži tablicu mjesta</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="699"/>
+        <location filename="../Ui_mainwindow.ui" line="700"/>
         <source>Update DB</source>
-        <translation>Datenbank aktualisieren</translation>
+        <translation>Aktualiziraj bazu podataka</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="708"/>
+        <location filename="../Ui_mainwindow.ui" line="709"/>
         <source>Stop Updating</source>
-        <translation>Aktualisierung anhalten</translation>
+        <translation>Prekini aktualiziranje</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="717"/>
+        <location filename="../Ui_mainwindow.ui" line="718"/>
         <source>Open &amp;Main DB Path</source>
-        <translation>&amp;Hauptdatenbankpfad öffnen</translation>
+        <translation>Otvori &amp;stazu glavne baze podataka</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="726"/>
+        <location filename="../Ui_mainwindow.ui" line="727"/>
         <source>Open Temp &amp;DB Path</source>
-        <translation>Temp. &amp;Datenbankpfad öffnen</translation>
+        <translation>Otvori stazu privremene baze po&amp;dataka</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="735"/>
+        <location filename="../Ui_mainwindow.ui" line="736"/>
         <source>Show Search Setting</source>
-        <translation>Sucheinstellungen anzeigen</translation>
+        <translation>Prikaži postavke pretrage</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="749"/>
-        <location filename="../Ui_mainwindow.ui" line="752"/>
+        <location filename="../Ui_mainwindow.ui" line="750"/>
+        <location filename="../Ui_mainwindow.ui" line="753"/>
         <source>Toggle Case Sensitive</source>
-        <translation>Groß-/Kleinschreibung beachten - aktivieren/deaktivieren</translation>
+        <translation>Uklj/Isklj razlikovanje velikih/malih slova</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="757"/>
+        <location filename="../Ui_mainwindow.ui" line="758"/>
         <source>Hide</source>
-        <translation>Ausblenden</translation>
+        <translation>Sakrij</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="762"/>
+        <location filename="../Ui_mainwindow.ui" line="763"/>
         <source>Show</source>
-        <translation>Anzeigen</translation>
+        <translation>Prikaži</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="770"/>
+        <location filename="../Ui_mainwindow.ui" line="771"/>
         <source>Show All</source>
-        <translation>Alle anzeigen</translation>
+        <translation>Prikaži sve</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="779"/>
-        <location filename="../Ui_mainwindow.ui" line="782"/>
+        <location filename="../Ui_mainwindow.ui" line="780"/>
+        <location filename="../Ui_mainwindow.ui" line="783"/>
         <source>Update DB (only selected)</source>
-        <translation>Nur ausgewählte Datenbanken aktualisieren</translation>
+        <translation>Aktualiziraj bazu podataka (samo odabrane)</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="791"/>
-        <source>&amp;Open Project Homepage...</source>
-        <translation>Homepage des Projekts &amp;öffnen …</translation>
+        <location filename="../Ui_mainwindow.ui" line="792"/>
+        <source>&amp;Open Project Homepage…</source>
+        <translation>&amp;Otvori web-stranicu projekta …</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="796"/>
-        <source>&amp;Latest Version...</source>
-        <translation>&amp;Letzte Version …</translation>
+        <location filename="../Ui_mainwindow.ui" line="797"/>
+        <source>&amp;Latest Version</source>
+        <translation>&amp;Najnovija verzija</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="801"/>
+        <location filename="../Ui_mainwindow.ui" line="802"/>
         <source>Check Included</source>
-        <translation>Prüfung enthalten</translation>
+        <translation>Označi uključene</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="806"/>
+        <location filename="../Ui_mainwindow.ui" line="807"/>
         <source>Uncheck Included</source>
-        <translation>Ungeprüft enthalten</translation>
+        <translation>Odznači uključene</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="811"/>
+        <location filename="../Ui_mainwindow.ui" line="812"/>
         <source>Check Updatable</source>
-        <translation type="unfinished"></translation>
+        <translation>Označi aktualizirajuće</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="816"/>
+        <location filename="../Ui_mainwindow.ui" line="817"/>
         <source>Uncheck Updatable</source>
-        <translation type="unfinished"></translation>
+        <translation>Odznači aktualizirajuće</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="825"/>
-        <source>&amp;Search...</source>
-        <translation>&amp;Suchen …</translation>
+        <location filename="../Ui_mainwindow.ui" line="826"/>
+        <source>&amp;Search…</source>
+        <translation>&amp;Pretraga je u tijeku …</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="828"/>
+        <location filename="../Ui_mainwindow.ui" line="829"/>
         <source>Ctrl+G</source>
-        <translation>Strg+G</translation>
+        <translation>Ctrl+G</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="836"/>
+        <location filename="../Ui_mainwindow.ui" line="837"/>
         <source>(A&amp;uto)</source>
-        <translation>(a&amp;utomatisch)</translation>
+        <translation>(A&amp;utomatski)</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="841"/>
+        <location filename="../Ui_mainwindow.ui" line="842"/>
         <source>&amp;English</source>
-        <translation>&amp;Englisch</translation>
+        <translation>&amp;Engleski</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="846"/>
+        <location filename="../Ui_mainwindow.ui" line="847"/>
         <source>&amp;Simplified Chinese (简体中文) zh_CN</source>
-        <translation>&amp;Vereinfachtes Chinesisch (简体中文) zh_CN</translation>
+        <translation>&amp;Pojednostavljeni kineski (简体中文) zh_CN</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="849"/>
+        <location filename="../Ui_mainwindow.ui" line="850"/>
         <source>Simplified Chinese (简体中文) zh_CN</source>
-        <translation>Vereinfachtes Chinesisch (简体中文) zh_CN</translation>
+        <translation>Pojednostavljeni kineski (简体中文) zh_CN</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="857"/>
+        <location filename="../Ui_mainwindow.ui" line="858"/>
         <source>&amp;Search</source>
-        <translation>&amp;Suchen</translation>
+        <translation>&amp;Traži</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="865"/>
+        <location filename="../Ui_mainwindow.ui" line="866"/>
         <source>S&amp;earch Settings</source>
-        <translation>S&amp;ucheinstellungen</translation>
+        <translation>Postavk&amp;e pretrage</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="889"/>
+        <location filename="../Ui_mainwindow.ui" line="890"/>
         <source>&amp;Toolbar</source>
-        <translation>&amp;Symbolleiste</translation>
+        <translation>&amp;Alatna traka</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="897"/>
-        <source>T&amp;oolbar Case Snesitive</source>
-        <translation type="unfinished"></translation>
+        <location filename="../Ui_mainwindow.ui" line="898"/>
+        <source>T&amp;oolbar Case Sensitive</source>
+        <translation>Razlik&amp;ovanje velikih/malih slova u alatnoj traci</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="905"/>
+        <location filename="../Ui_mainwindow.ui" line="906"/>
         <source>Too&amp;lbar Advanced Setting</source>
-        <translation>Symbo&amp;lleiste • Erweiterte Einstellungen</translation>
+        <translation>Napredne postavke a&amp;latne trake</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="910"/>
-        <source>Hungarian (Magyar nyelv) hu</source>
-        <translation>Ungarisch (Magyar nyelv) hu</translation>
+        <location filename="../Ui_mainwindow.ui" line="911"/>
+        <source>&amp;Hungarian (Magyar nyelv) hu</source>
+        <translation>&amp;Mađarski (Magyar nyelv) hu</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="915"/>
-        <source>Norwegian Bokmål (bokmål) nb_NO</source>
-        <translation type="unfinished"></translation>
+        <location filename="../Ui_mainwindow.ui" line="916"/>
+        <source>&amp;Norwegian Bokmål (bokmål) nb_NO</source>
+        <translation>&amp;Norveški bokmål (bokmål) nb_NO</translation>
     </message>
     <message>
-        <location filename="../Ui_mainwindow.ui" line="920"/>
-        <source>Dutch (Nederlands) nl</source>
-        <translation type="unfinished"></translation>
+        <location filename="../Ui_mainwindow.ui" line="921"/>
+        <source>&amp;Dutch (Nederlands) nl</source>
+        <translation>&amp;Nizozemski (Nederlands) nl</translation>
+    </message>
+    <message>
+        <location filename="../Ui_mainwindow.ui" line="926"/>
+        <source>Russian (русский язык) ru</source>
+        <translation>Ruski (русский язык) ru</translation>
     </message>
 </context>
 <context>
@@ -633,18 +685,18 @@
     <message>
         <location filename="../ui_change_advanced_setting_dialog.cpp" line="73"/>
         <source>All Cores</source>
-        <translation type="unfinished"></translation>
+        <translation>Svi osnovni</translation>
     </message>
     <message>
         <location filename="../ui_change_advanced_setting_dialog.cpp" line="118"/>
         <location filename="../ui_change_advanced_setting_dialog.cpp" line="129"/>
         <source>Select Directory of Database File</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi mapu datoteke baze podataka</translation>
     </message>
     <message>
         <location filename="../ui_change_excluded_folder_dialog.cpp" line="56"/>
         <source>Select Directory to Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Odaberi mapu za dodavanje</translation>
     </message>
 </context>
 <context>
@@ -653,42 +705,42 @@
         <location filename="../mainwindow_table_action.cpp" line="156"/>
         <location filename="../mainwindow_table_action.cpp" line="250"/>
         <source>Open</source>
-        <translation>Datei(en) öffnen</translation>
+        <translation>Otvori</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="261"/>
         <source>Open path</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvori stazu</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="268"/>
         <source>Copy ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiraj …</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="270"/>
         <source>Copy fullpath</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiraj cijelu stazu</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="272"/>
         <source>Copy filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiraj ime datoteke</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="274"/>
         <source>Copy path</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiraj stazu</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="287"/>
         <source>Move to trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Premjesti u smeće</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="293"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukloni</translation>
     </message>
 </context>
 <context>
@@ -696,12 +748,12 @@
     <message>
         <location filename="../mainwindow_table_action.cpp" line="380"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Poruka</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="381"/>
         <source>Are you sure to DELETE?</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvarno UKLONITI?</translation>
     </message>
 </context>
 <context>
@@ -709,32 +761,32 @@
     <message>
         <location filename="../MainWindow.cpp" line="280"/>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Učitavanje …</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="735"/>
         <source>Exclude folders from indexing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Isključi mape iz indeksiranja.</translation>
     </message>
     <message>
         <location filename="../mainwindow_table_action.cpp" line="392"/>
         <source>Done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gotovo.</translation>
     </message>
     <message>
         <location filename="../mainwindow_uuid_table_slots.cpp" line="220"/>
         <source> [Read Only Mode]</source>
-        <translation type="unfinished"></translation>
+        <translation> [Samo za čitanje]</translation>
     </message>
     <message>
         <location filename="../mainwindow_uuid_table_slots.cpp" line="222"/>
         <source>Ready.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremno.</translation>
     </message>
     <message>
         <location filename="../mainwindow_uuid_table_slots.cpp" line="226"/>
         <source> [Snap Compatibility Mode]</source>
-        <translation type="unfinished"></translation>
+        <translation> [Snap kompatibilnost]</translation>
     </message>
 </context>
 <context>
@@ -742,184 +794,185 @@
     <message>
         <location filename="../MainWindow.cpp" line="261"/>
         <source>Database is locked by</source>
-        <translation type="unfinished"></translation>
+        <translation>Baza podataka je zaključana od</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="262"/>
         <source>Appname: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ime programa: </translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="263"/>
         <source>PID: </source>
-        <translation type="unfinished"></translation>
+        <translation>PID: </translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="264"/>
         <source>Hostname:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ime računala:</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="268"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Upozorenje</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="48"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Traži</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="49"/>
         <source>Mount Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Staza uređaja</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="50"/>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>Oznaka</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="51"/>
         <source>UUID</source>
-        <translation type="unfinished"></translation>
+        <translation>UUID</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="52"/>
         <source>Alias</source>
-        <translation type="unfinished"></translation>
+        <translation>Alias</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="53"/>
         <source>FS Type</source>
-        <translation type="unfinished"></translation>
+        <translation>FS vrsta</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="54"/>
         <source>Dev name</source>
-        <translation type="unfinished"></translation>
+        <translation>Ime uređaja</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="55"/>
         <source>Major Device Num</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj glavnog uređaja</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="56"/>
         <source>Minor Device Num</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj sporednog uređaja</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="57"/>
         <source>Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementi</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="58"/>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualiziraj</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="59"/>
         <source>Progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Napredak</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="68"/>
         <source>Check to search this device. The icon indicates the mount state.</source>
-        <translation type="unfinished"></translation>
+        <translation>Označi, za traženje ovog uređaja. Ikona označava stanje uređaja.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="69"/>
         <source>Path where the device is mounted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Staza, s koje se uređaj pokreće.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="70"/>
         <source>Device label.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oznaka uređaja.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="71"/>
         <source>Universally unique identifier (UUID).</source>
-        <translation type="unfinished"></translation>
+        <translation>Univerzalni jedinstven identifikator (UUID).</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="72"/>
         <source>This is a editable column. You may customize the alias of this device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ovo je urediv stupac. Alias ovog uređaja može se prilagoditi.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="73"/>
         <source>File system type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrsta datotečnog sustava.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="74"/>
         <source>Device name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ime uređaja.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="75"/>
         <location filename="../globals.cpp" line="76"/>
         <source>Each storage device is represented by a major number and a range of minor numbers,
 which are used to identify either the entire device or a partition within the device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Svaki uređaj za spremanje podataka predstavlja se glavnim brojem i nizom sporednih brojeva,
+koji se koriste za određivanje cijelog uređaja ili particije unutar uređaja.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="77"/>
         <source>Total number of items in this device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukupni broj elemenata u ovom uređaju.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="78"/>
         <source>Check to update this device when click Update All button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Označi za aktualiziranje ovog uređaja kad pritisneš gumb Aktualiziraj sve.</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="79"/>
         <source>Update progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Napredak aktualiziranja</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="100"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Ime datoteke</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="101"/>
         <source>Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Staza</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="102"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Veličina</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="103"/>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapa</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="104"/>
         <source>Extension</source>
-        <translation type="unfinished"></translation>
+        <translation>Proširenje</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="105"/>
         <source>Access Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrijeme pristupa</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="106"/>
         <source>Modify Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrijeme izmjene</translation>
     </message>
     <message>
         <location filename="../globals.cpp" line="107"/>
         <source>Change Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrijeme promjene</translation>
     </message>
 </context>
 </TS>

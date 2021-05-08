@@ -161,17 +161,17 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
 
 &lt;div class=&quot;table&quot;&gt;&lt;table class=&quot;generic&quot;&gt;
- &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Expresion&lt;/th&gt;&lt;th&gt;Salida&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;d&lt;/td&gt;&lt;td&gt;Día como número sin cero (1 to 31)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;dd&lt;/td&gt;&lt;td&gt;Día como número con cero inicial (01 to 31)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;ddd&lt;/td&gt;&lt;td&gt;Nombre abreviado del día  (ej. &apos;Lun&apos; to &apos;Dom&apos;). &lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;dddd&lt;/td&gt;&lt;td&gt;Nombre del día largo (ej. &apos;Lunes&apos; to &apos;Domingo&apos;). &lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;M&lt;/td&gt;&lt;td&gt;Mes como número sin cero. (1-12)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;MM&lt;/td&gt;&lt;td&gt;Mes como número con cero (01-12)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;MMM&lt;/td&gt;&lt;td&gt;Nombre abreviado del mes (ej. &apos;Ene&apos; to &apos;Dic&apos;). &lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;MMMM&lt;/td&gt;&lt;td&gt;Nombre del mes largo (ej. &apos;Enero&apos; to &apos;Diciembre&apos;). &lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;yy&lt;/td&gt;&lt;td&gt;Año como número de dos dígitos (00-99)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;yyyy&lt;/td&gt;&lt;td&gt;Año como número de cuatro dígitos&lt;/td&gt;&lt;/tr&gt;
+ &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Expresión&lt;/th&gt;&lt;th&gt;Salida&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;d&lt;/td&gt;&lt;td&gt;el día como número sin un cero inicial (1 a 31)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;dd&lt;/td&gt;&lt;td&gt;el día como número con un cero inicial (01 a 31)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;ddd&lt;/td&gt;&lt;td&gt;el nombre abreviado del día localizado (por ejemplo, &quot;Lun&quot; a &quot;Dom&quot;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;dddd&lt;/td&gt;&lt;td&gt;el nombre del día largo localizado (por ejemplo, &quot;lunes&quot; a &quot;domingo&quot;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;M&lt;/td&gt;&lt;td&gt;el mes como número sin un cero inicial (1-12)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;MM&lt;/td&gt;&lt;td&gt;el mes como número con un cero inicial (01-12)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;MMM&lt;/td&gt;&lt;td&gt;el nombre abreviado del mes localizado (por ejemplo, &quot;Ene&quot; a &quot;Dic&quot;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;MMM&lt;/td&gt;&lt;td&gt;el nombre del mes largo localizado (por ejemplo, de &quot;enero&quot; a &quot;diciembre&quot;). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;yy&lt;/td&gt;&lt;td&gt;el año como un número de dos dígitos (00-99)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;yyyy&lt;/td&gt;&lt;td&gt;el año como número de cuatro dígitos&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
 
 
@@ -179,19 +179,19 @@
 
 
 &lt;div class=&quot;table&quot;&gt;&lt;table class=&quot;generic&quot;&gt;
- &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Expresion&lt;/th&gt;&lt;th&gt;Salida&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;h&lt;/td&gt;&lt;td&gt;Hora de uno a dos digitos (0 a 23 o 1 a 12 si formato AM/PM)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;hh&lt;/td&gt;&lt;td&gt;Hora con dos digitos (00 a 23 o 01 to 12 si formato AM/PM)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;H&lt;/td&gt;&lt;td&gt;Hora de uno a dos digitos (0 a 23, incluso con formato AM/PM)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;HH&lt;/td&gt;&lt;td&gt;Hora con dos digitos (00 a 23, incluso con formato AM/PM)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;m&lt;/td&gt;&lt;td&gt;Minutos de uno a dos digitos (0 a 59)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;mm&lt;/td&gt;&lt;td&gt;Minutos con con dos digitos (00 a 59)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;s&lt;/td&gt;&lt;td&gt;Segundos de uno a dos digitos (0 a 59)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ss&lt;/td&gt;&lt;td&gt;Segundos con dos digitos (00 a 59)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;z&lt;/td&gt;&lt;td&gt;Milisegundos de uno a tres digitos (0 a 999)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;zzz&lt;/td&gt;&lt;td&gt;Milisegundos con tres digitos (000 a 999)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;AP or A&lt;/td&gt;&lt;td&gt;Interpretar formato AM/PM. &lt;i&gt;AP&lt;/i&gt; debe ser &quot;AM&quot; or &quot;PM&quot;.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ap or a&lt;/td&gt;&lt;td&gt;Interpretar formato AM/PM. &lt;i&gt;ap&lt;/i&gt; debe ser &quot;am&quot; or &quot;pm&quot;.&lt;/td&gt;&lt;/tr&gt;
+ &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Expresión&lt;/th&gt;&lt;th&gt;Salida&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;h&lt;/td&gt;&lt;td&gt;la hora sin un cero inicial (0 a 23 o 1 a 12 si se muestra AM/PM)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;hh&lt;/td&gt;&lt;td&gt;la hora con un cero a la izquierda (00 a 23 o 01 a 12 si se muestra AM/PM)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;H&lt;/td&gt;&lt;td&gt;la hora sin un cero inicial (0 a 23, incluso con la pantalla AM/PM)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;HH&lt;/td&gt;&lt;td&gt; la hora con un cero inicial (00 a 23, incluso con la pantalla AM/PM)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;m&lt;/td&gt;&lt;td&gt;el minuto sin un cero inicial (0 a 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;mm&lt;/td&gt;&lt;td&gt;el minuto con un cero inicial (00 a 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;s&lt;/td&gt;&lt;td&gt;el segundo sin un cero inicial (0 a 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ss&lt;/td&gt;&lt;td&gt;el segundo con un cero inicial (00 a 59)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;z&lt;/td&gt;&lt;td&gt;los milisegundos sin ceros iniciales (0 a 999)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;zzz&lt;/td&gt;&lt;td&gt;los milisegundos con ceros iniciales (000 a 999)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;AP o A&lt;/td&gt;&lt;td&gt;interpretar como una hora AM/PM. &lt;i&gt;AP&lt;/i&gt; debe ser &quot;AM&quot; o &quot;PM&quot;.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ap o a&lt;/td&gt;&lt;td&gt;Interpretado como un tiempo de AM/PM. &lt;i&gt;ap&lt;/i&gt; debe ser o &quot;AM&quot; o &quot;PM&quot;.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
 
 &lt;br/&gt;
@@ -200,7 +200,7 @@
 &lt;caption&gt;Ejemplos:&lt;/caption&gt;
  &lt;thead&gt;&lt;tr class=&quot;qt-style&quot;&gt;&lt;th&gt;Formato&lt;/th&gt;&lt;th&gt;Entrada&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;&lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;dd.MM.yyyy&lt;/td&gt;&lt;td&gt;21.05.2001&lt;/td&gt;&lt;/tr&gt;
-&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ddd MMMM d yy&lt;/td&gt;&lt;td&gt;Mar May 21 01&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;ddd MMMM d yy&lt;/td&gt;&lt;td&gt;Tue May 21 01&lt;/td&gt;&lt;/tr&gt;
 &lt;tr valign=&quot;top&quot; class=&quot;odd&quot;&gt;&lt;td&gt;hh:mm:ss.zzz&lt;/td&gt;&lt;td&gt;14:13:09.042&lt;/td&gt;&lt;/tr&gt;
 &lt;tr valign=&quot;top&quot; class=&quot;even&quot;&gt;&lt;td&gt;h:m:s ap&lt;/td&gt;&lt;td&gt;2:13:9 pm&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
@@ -321,7 +321,7 @@
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="746"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Type a folder which contains an &lt;span style=&quot; color:#0109ea;&quot;&gt;index.theme&lt;/span&gt; file.&lt;/p&gt;&lt;p&gt;Themes may be available in &amp;quot;&lt;a href=&quot;file:///usr/share/icons/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;/usr/share/icons&lt;/span&gt;&lt;/a&gt;&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Escriba una carpeta que contenga  &lt;span style=&quot; color:#0109ea;&quot;&gt;index.theme&lt;/span&gt; file.&lt;/p&gt;&lt;p&gt;Los temas pueden estar disponibles en;&lt;a href=&quot;file:///usr/share/icons/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;/usr/share/icons&lt;/span&gt;&lt;/a&gt;&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Escriba una carpeta que contenga un archivo &lt;span style=&quot; color:#0109ea;&quot;&gt;index.theme&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;Los temas pueden estar disponibles en &amp;quot;&lt;a href=&quot;file:///usr/share/icons/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;/usr/share/icons&lt;/span&gt;&lt;/a&gt;&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../Ui_advanced_setting_dialog.ui" line="770"/>
@@ -500,7 +500,7 @@
     <message>
         <location filename="../Ui_mainwindow.ui" line="651"/>
         <source>&amp;Use MFT Parser to Build Index</source>
-        <translation>&amp;Usar MFT  para construir índice</translation>
+        <translation>&amp;Usar el Analizador MFT para Construir el Índice</translation>
     </message>
     <message>
         <location filename="../Ui_mainwindow.ui" line="654"/>

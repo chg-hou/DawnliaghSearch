@@ -716,8 +716,7 @@
     </message>
     <message>
         <source>Setting</source>
-        <translation type="vanished">
-设置</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>About</source>
